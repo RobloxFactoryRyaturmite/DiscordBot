@@ -8,8 +8,8 @@ const token = process.env.TOKEN
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
   client.user.setPresence({
-    activities: [{ name: 'with love💘' }],
-    ActivityType: ActivityType.Playing,
+    activities: [{ name: 'happy' }],
+    ActivityType: ActivityType.Listening,
     status: 'online',
   })
 });
